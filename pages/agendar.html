@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Salão de Beleza Exemplo</title>
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <title>Agendar - Salão de Beleza Exemplo</title>
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
 </head>
 <body>
   <header>
     <h1>Salão de Beleza Exemplo</h1>
     <nav>
       <ul>
+        <li><a href="../index.html">Início</a></li>
         <li><a href="/pages/servicos.html">Serviços</a></li>
-        <li><a href="pages/agendar.html">Agendar</a></li>
-        <li><a href="pages/contato.html">Contato</a></li>
+        <li><a href="/pages/agendar.html">Agendar</a></li>
+        <li><a href="/pages/contato.html">Contato</a></li>
       </ul>
     </nav>
   </header>
@@ -27,6 +28,11 @@
 
       <label for="telefone">Telefone:</label>
       <input type="tel" id="telefone" name="telefone" required><br><br>
+      
+      <label for="dataHora">Data e Hora:</label>
+  <input type="datetime-local" id="dataHora" required><br><br>
+
+
 
       <label for="servico">Serviço:</label>
       <select id="servico" name="servico">
